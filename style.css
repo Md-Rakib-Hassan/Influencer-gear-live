@@ -57,3 +57,62 @@ ul{
 .banner-img{
     background-image: url(images/Circle\ design.svg);
 }
+
+
+.hid{
+    display: none;
+}
+
+
+
+
+/* resposive */
+
+@media screen and (max-width:576px ) {
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+   
+    ul{
+        margin: 20px auto;
+        justify-content: center;
+        gap:15px
+    }
+    .nav-logo{
+        margin: auto;
+    }
+
+    
+    .banner{
+        flex-direction: column-reverse;
+        margin-top: -50px;
+        gap: 50px;
+        /* margin: 20px auto; */
+    }
+    .banner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner-description{
+        text-align: justify;
+    }
+    .btn{
+        padding: 5px 5px;
+    }
+    .banner-img, .banner-img img{
+        width: 100%;
+    }
+    .banner-content> h1{
+        font-size: 1.75rem;
+        margin: auto;
+        padding: auto;
+
+    }
+    .btn{
+    
+  
+    
+}
